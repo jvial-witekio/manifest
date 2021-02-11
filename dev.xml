@@ -4,7 +4,7 @@
   <default sync-j="4" revision="master"/>
 
   <remote fetch="https://git.yoctoproject.org/git" name="yocto"/>
-  <remote fetch="https://github.com/FullMetalUpdate/" name="fullmetalupdate"/>
+  <remote fetch="https://github.com/jvial-witekio/" name="fullmetalupdate"/>
   <remote fetch="https://github.com/Witekio/" name="witekio"/>
   <remote fetch="https://github.com/Freescale" name="freescale"/>
   <remote fetch="https://github.com/openembedded" name="oe"/>
@@ -14,9 +14,9 @@
   <project remote="oe" revision="dunfell" name="meta-openembedded" path="sources/meta-openembedded"/>
   <project remote="advancedtelematic" revision="dunfell" name="meta-updater" path="sources/meta-updater"/>
   <project remote="witekio" revision="dunfell" name="meta-machinelearning" path="sources/meta-machinelearning"/>
-  <project remote="fullmetalupdate" revision="dunfell" name="meta-fullmetalupdate" path="sources/meta-fullmetalupdate"/>
-  <project remote="fullmetalupdate" revision="dunfell" name="meta-fullmetalupdate-extra" path="sources/meta-fullmetalupdate-extra"/>
-  <project remote="fullmetalupdate" revision="dunfell" name="meta-fullmetalupdate-demo" path="sources/meta-fullmetalupdate-demo"/>
+  <project remote="fullmetalupdate" revision="dunfell-dev" name="meta-fullmetalupdate" path="sources/meta-fullmetalupdate"/>
+  <project remote="fullmetalupdate" revision="dunfell-dev" name="meta-fullmetalupdate-extra" path="sources/meta-fullmetalupdate-extra"/>
+  <project remote="fullmetalupdate" revision="dunfell-dev" name="meta-fullmetalupdate-demo" path="sources/meta-fullmetalupdate-demo"/>
   <project remote="qt" revision="dunfell" name="meta-qt5" path="sources/meta-qt5"/>
   <project remote="yocto" revision="dunfell" name="poky" path="sources/poky"/>
   <project remote="freescale" revision="dunfell" name="fsl-community-bsp-base" path="sources/base">
